@@ -36,7 +36,7 @@ module.exports = {
 
 
 // TESTS
-pluckFirstLineFromFile('test.txt', (err, firstLine) => { console.log(firstLine) });
+pluckFirstLineFromFile('test.txt', (err, firstLine) => { console.log(firstLine); });
 getStatusCode('https://www.google.com', (err, data) => {
   if (err) {
     console.log('this is the error ', err);
