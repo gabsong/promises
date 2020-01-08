@@ -11,8 +11,11 @@
 var fs = require('fs');
 var Promise = require('bluebird');
 
+<<<<<<< HEAD
 Promise.promisifyAll(fs);
 
+=======
+>>>>>>> 0a29d0a1a6b74ff678562efa8930e89e892bfecc
 var fetchProfileAndWriteToFile = function(readFilePath, writeFilePath) {
   // TODO
 };
